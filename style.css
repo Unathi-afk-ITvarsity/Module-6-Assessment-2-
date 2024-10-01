@@ -1,0 +1,342 @@
+/**************************************************************************************** */
+/* Universal Styles */
+/**************************************************************************************** */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+p {
+    line-height: 190%;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: teal;
+}
+
+/**************************************************************************************** */
+/* Menu */
+/**************************************************************************************** */
+
+#menu {
+    background-color: black;
+    height: 100px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px; 
+    color: white;
+    
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover {
+    background-color: #1abc9c;
+}
+
+/**************************************************************************************** */
+/* HEADER */
+/**************************************************************************************** */
+
+#header {
+    padding: 60px 0px 40px 0;
+    background-image: url(images/Logo_car-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    text-align: center;
+    height: 25vh;
+    
+}
+
+#header h1 {
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px teal;
+}
+
+ #header p{
+    color: #ffffff;
+    margin-top: -25px;
+}
+
+/**************************************************************************************** */
+/* BANNER */
+/**************************************************************************************** */
+
+#banner {
+    
+}
+
+#banner img {
+    width: 10%;
+    height: 15vh;
+    margin: 15px 0px 0px 15px;
+}
+
+/**************************************************************************************** */
+/* PAGE */
+/**************************************************************************************** */
+
+#page {
+    min-height: 400px;
+    padding: 20px;
+}
+
+#page h2 {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #16a085;
+}
+
+/* CONTENT */
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+#sidebar {
+    float: right;
+    width: 25%;
+}
+
+/* Lists */
+
+ul.styled {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li {
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+
+/**************************************************************************************** */
+/* Footer */
+/**************************************************************************************** */
+
+#footer {
+    width: 100%;
+    height: 340px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad;
+}
+
+#box1 {
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2 {
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box3 {
+    float: right;
+    width: 30%;
+    padding-left: 30px
+}
+
+/**************************************************************************************** */
+/* Copyright */
+/**************************************************************************************** */
+
+#copyright {
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: #16a085;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/**************************************************************************************** */
+/* Gallery */
+/**************************************************************************************** */
+
+#gallery img {
+    width: 120px;
+    margin: 12px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#gallery img:hover {
+    -moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+}
+
+
+/*=============================== my work =====================================*/
+ body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+  /*=================================== 1st Section ===========================*/
+ #first-section {
+     background-color: tan;
+     width: 950px;
+     height: 550px;
+     margin: auto;
+     margin-top: 50px;
+     border-radius: 1%;
+                
+}
+            
+ #first-section img {
+     width: 150px;
+     border-radius: 10%;
+     padding: 10px;
+     padding-left: 25px;
+     margin: -30px 0 0 25px;
+}
+ #first-section img {
+     width: 120px;
+     margin: 12px;
+     -moz-transition: -moz-transform 0.5s ease-in;
+     -webkit-transition: -webkit-transform 0.5s ease-in;
+	 -o-transition: -o-transform 0.5s ease-in;
+            }
+
+ #first-section img:hover {
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);
+}
+            
+            h3 {
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 25px;
+            }
+            
+            /*=================================== Accordion ===========================*/
+            
+            #accordion {
+                width: 600px;
+            }
+            
+            #accordion li {
+                list-style: none;
+                width: 100%;
+                margin-bottom: 10px;
+                background: white;
+                padding: 10px;
+                border-radius: 4px;
+            }
+            
+            #accordion li label {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+                color: #c20000;
+            }
+            
+            #accordion li label span {
+                transform: rotate(90deg);
+                font-size: 22px;
+                color: #333;
+            }
+            
+            #accordion label + input[type="radio"] {
+                display: none;
+            }
+            
+            #accordion .content {
+                padding: 0 10px;
+                line-height: 26px;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.5s; 
+                height: 990px;
+            }
+            
+            #accordion label + input[type="radio"]:checked + .content {
+                max-height: 400px; 
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
